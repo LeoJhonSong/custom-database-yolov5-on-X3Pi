@@ -16,7 +16,7 @@ torch>=1.8.0  # see https://pytorch.org/get-started/locally (recommended)
 torchvision>=0.9.0
 tqdm>=4.64.0
 ultralytics>=8.0.147
-# protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
+protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
 # Logging ---------------------------------------------------------------------
 # tensorboard>=2.4.1
@@ -29,8 +29,8 @@ seaborn>=0.11.0
 
 # Export ----------------------------------------------------------------------
 # coremltools>=6.0  # CoreML export
-# onnx>=1.10.0  # ONNX export
-# onnx-simplifier>=0.4.1  # ONNX simplifier
+onnx>=1.10.0  # ONNX export
+onnx-simplifier>=0.4.1  # ONNX simplifier
 # nvidia-pyindex  # TensorRT export
 # nvidia-tensorrt  # TensorRT export
 # scikit-learn<=1.1.2  # CoreML quantization

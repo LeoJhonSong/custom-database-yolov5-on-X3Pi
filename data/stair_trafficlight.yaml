@@ -1,0 +1,19 @@
+path: ../datasets/stair_trafficlight
+train:
+  - stair/train/images
+  - trafficlight/train/images
+  - darkness_addition/train/images
+val:
+  - stair/valid/images
+  - trafficlight/valid/images
+  - darkness_addition/valid/images
+test:
+  - stair/test/images
+  - trafficlight/test/images
+
+names:
+  0: down_stair
+  1: up_stair
+  2: green_light
+  3: red_light
+  4: yellow_light
